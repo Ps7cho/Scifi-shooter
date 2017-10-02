@@ -12,6 +12,6 @@ despawnRadius = 2000;
 
 spawnRadius = 1500;
 
-chunkLoadedSet = ds_map_create();
+chunkLoadedSet = ds_map_create(); //used in chunkLoaded()
 
 chunkMap = ds_map_create();

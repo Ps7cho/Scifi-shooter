@@ -45,7 +45,6 @@ if (dirX < 0) and (dirY > 0){
 
 
 
-
 //draw chatacter shadow
 draw_sprite(sprCharacterShadow, 0, x, y);
 

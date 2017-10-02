@@ -8,7 +8,8 @@
         "48797b88-021a-404c-a743-c770530ccc8c",
         "fc9f4407-0262-435e-98e8-9540e2851177",
         "9eafaf33-81b8-4260-966e-48a7b6aafcea",
-        "bf3cda80-23ea-497f-8079-f7207c0ba116"
+        "bf3cda80-23ea-497f-8079-f7207c0ba116",
+        "00bdec95-9ac4-4094-b763-99ad41841972"
     ],
     "filterType": "GMSprite",
     "folderName": "Decor",

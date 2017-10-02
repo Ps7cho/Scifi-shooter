@@ -16,11 +16,11 @@ if mouse_check_button(mb_right){
 	targetY = mouse_y;
 	}
 if targetY != noone && targetY != noone {
-	/*mouseDistance = point_distance(x, y, targetX, targetY);
-	move_towards_point(targetX, targetY, min(playerSpeed, mouseDistance));*/
-	if (mp_grid_path(global.grid, path, x, y, targetX, targetY, true)){
-		path_start(path, playerSpeed, path_action_stop, false);
-	}
+	mouseDistance = point_distance(x, y, targetX, targetY);
+	move_towards_point(targetX, targetY, min(playerSpeed, mouseDistance));
+	//if (mp_grid_path(global.grid, path, x, y, targetX, targetY, true)){
+	//	path_start(path, playerSpeed, path_action_stop, false);
+	//}
 	
 }
 
