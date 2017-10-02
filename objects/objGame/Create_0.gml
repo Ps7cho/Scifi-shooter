@@ -1,6 +1,6 @@
 /// @description 
 randomize();
-debug = true;
+global.debug = true;
 room_set_height(room2, 257000);
 room_set_width(room2, 257000);
 room_set_background_color(room2,c_green,true);
