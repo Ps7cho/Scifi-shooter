@@ -14,10 +14,11 @@ for(var i = 0; i < numSizeBlocks; i++) {
 			if chance(0.1){
 				var tree = instance_create_layer(x + i*blockSize, y + j*blockSize,"Instances",objTree);
 				}
-		}else if (zz >= 85){
+		}else if (zz >= 85) and (zz <=100){
 			var rock = instance_create_layer(x + i*blockSize, y + j*blockSize,"Instances",objRock);
+		}else if zz == 101{
+			var wall = instance_create_layer(x + i*blockSize, y + j*blockSize,"Instances",objWall);
 		}
-		draw_text_color(x + i*blockSize, y + j*blockSize, string(zz), c_white, c_white, c_gray, c_gray, 1);
 	}
 }
 

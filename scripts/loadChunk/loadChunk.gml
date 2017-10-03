@@ -16,7 +16,7 @@ var deep = ds_grid_create(numSizeBlocks,numSizeBlocks);
 
 for(var i = 0; i < numSizeBlocks; i++) {
 	for(var j = 0; j < numSizeBlocks; j++){
-		deep[# i,j] = 1;
+		deep[# i,j] = 101;
 	}	
 }
 deep = ds_grid_write(deep);
