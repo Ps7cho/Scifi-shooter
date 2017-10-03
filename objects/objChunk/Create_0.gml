@@ -3,6 +3,7 @@
 loadChunk();
 waterLevel = 35;
 
+
 for(var i = 0; i < numSizeBlocks; i++) {
 	for(var j = numSizeBlocks; j >=0; j--) {
 		var zz = (chunkGrid[# i, j]);
