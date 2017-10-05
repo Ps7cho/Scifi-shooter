@@ -25,3 +25,4 @@ for(var i = 0; i < numSizeBlocks; i++) {
 mp_grid_add_instances(global.grid, objWater, true);
 mp_grid_add_instances(global.grid, objRock, true);
 mp_grid_add_instances(global.grid, objTree, true);
+mp_grid_add_instances(global.grid, objWall, true);

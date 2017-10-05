@@ -17,3 +17,8 @@ spriteLegs = male_white_pants;
 spriteShirt = male_white_shirt;
 spriteHair = sprHairMessyBrown;
 spriteWeapon = sprSpear;
+
+// atack info
+shootRange = 300;
+
+attackingTarget = noone;

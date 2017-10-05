@@ -72,4 +72,7 @@ else							 { x_frame = 1;  }
 
 if global.debug {
 	draw_rectangle_color(bbox_left,bbox_top,bbox_right,bbox_bottom, c_yellow,c_yellow,c_yellow,c_yellow,true);
+	//draw_circle_color(x,y,shootRange/2,c_red,c_red,true);
+	
 }
+draw_circle_color(x,y,shootRange,c_red,c_red,true);

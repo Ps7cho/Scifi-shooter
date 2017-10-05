@@ -4,7 +4,7 @@ chunkGrid = ds_grid_create(numSizeBlocks,numSizeBlocks);
 
 
 
-
+/*
 
 var px = (room_width/2);
 var py = (room_height/2);
@@ -23,7 +23,7 @@ deep = ds_grid_write(deep);
 ds_map_replace(chunkMap,getKey(px,py),deep);
 
 
-
+*/
 
 
 if(ds_map_exists(chunkMap,getKey(x,y))){
